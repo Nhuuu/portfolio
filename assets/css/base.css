@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:300,300italic,400,600");
 
 /*
 	Prologue by HTML5 UP
@@ -35,8 +35,8 @@ section, summary, time, mark, audio, video {
   
   body {
     background: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19pt;
+    font-family: 'Inconsolata', monospace;
+    font-size: 14pt;
     font-weight: 300;
     line-height: 1.75em;
     color: #888;
@@ -63,7 +63,7 @@ section, summary, time, mark, audio, video {
 	
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgb(189, 185, 185);
 		line-height: 1.5em;
 	}
 	
@@ -73,7 +73,7 @@ section, summary, time, mark, audio, video {
 	}
 	
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: rgb(124, 121, 121);
 		}
 	
 	h2 {
@@ -82,11 +82,11 @@ section, summary, time, mark, audio, video {
 	}
 	
 		h2.alt {
-			color: #888;
+			color: rgb(189, 185, 185);
 		}
 	
 			h2.alt strong {
-				color: #666;
+				color: rgb(124, 121, 121);
 			}
 	
 	h3 {
@@ -142,7 +142,7 @@ input, select, textarea {
 
 strong, b {
   font-weight: 300;
-  color: #666;
+  color: rgb(124, 121, 121);
 }
 
 em, i {
